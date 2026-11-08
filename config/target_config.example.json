@@ -1,0 +1,8 @@
+{
+    "workload_kind": "Deployment",
+    "workload_name": "example-app",
+    "namespace": "default",
+    "container_name": "example-container",
+    "image": "nginx:latest",
+    "configured_at": "YYYY-MM-DD HH:MM:SS"
+}

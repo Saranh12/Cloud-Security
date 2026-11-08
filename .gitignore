@@ -1,0 +1,133 @@
+# Virtual environments
+venv/
+venv*/
+**/venv/
+**/venv*/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment files and credentials
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.pfx
+*.crt
+*.cert
+*id_rsa*
+*.p12
+.integrity_secret
+
+# Python cache and bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Sensitive runtime evidence, backups, incident data, and logs
+evidence/
+backups/
+integrity/
+logs/
+*.log
+runs/
+
+# Forensic reports
+reports/KubeGuard_Forensic_Incident_Report_*.pdf
+reports/*.pdf
+
+# Backup, temporary, and compressed archives
+*.bak
+*.bak_*
+*.swp
+*.swo
+*~
+*.zip
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Concurrency locks and PID files
+*.lock
+*.pid
+
+# Generated reports and runtime state
+reports/*.json
+reports/*.txt
+reports/*.tmp.*
+reports/*.lock
+reports/*.pdf
+
+# Development backup scripts
+main_backup*.py
+main_before_*.py
+main_ctf_backup.py
+
+# Scratch files
+scratch_*.txt
+
+# Old dashboard snapshots
+dashboard_old*/
+
+
+# Old Git history backup
+.git_old_backup/
+
+# Runtime temporary files
+*.tmp
+*.lock
+*.pid
+
+# Generated Kubernetes deployment files
+networkpolicy-nginx-*.yaml
+
+
+# Local runtime configuration
+config/target_config.json
+
+# Local secrets
+.integrity_secret
+
+# Old Git history
+.git_old_backup/
+kubeguard_dashboard_demo/
+dashboard_old_m12_final/
+kubeguard_dashboard_demo/
+dashboard_old_m12_final/
+
+# Old dashboard backups and snapshots
+dashboard/app_before_real_data.py
+dashboard/templates/dashboard_before_real_data.html
+dashboard/*.bak*
+dashboard/templates/*.bak*
+
+# Old dashboard prototype
+dashboard_old_m12_final/
+kubeguard_dashboard_demo/
